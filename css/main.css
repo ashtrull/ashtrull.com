@@ -1,0 +1,170 @@
+/***** GRID *****/
+.full-width {
+  margin: 0 0 0 15px;
+  width: 100%;
+}
+
+.half-width {
+  float: left;
+  margin: 0 0 0 15px;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 33%;
+}
+
+h1 {
+  font-family: "balzano-std", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110px;
+  margin: 0;
+}
+
+h2 {
+  color: #0e402d;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 0;
+}
+
+h3 {
+  font-family: "balzano-std", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110px;
+  margin: 0;
+}
+
+h4 {
+  font-family: "myriad-pro-condensed", sans-serif;
+  font-size: 36pt;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 42px;
+}
+
+h5 {
+  font-family: "balzano-std", sans-serif;
+  font-size: 24pt;
+  line-height: 30px;
+  margin: 0;
+}
+
+p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 18pt;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.section-header {
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+/***** HEADER *****/
+header {
+  background: url("../img/header-background.png");
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+}
+
+.headline h1 {
+  margin-left: 15%;
+  padding-top: 160px;
+}
+
+.tagline {
+  margin-left: 40px;
+  margin-top: 120px;
+  padding-bottom: 120px;
+  text-align: right;
+}
+
+/***** MY WORK *****/
+
+.my-work {
+  padding-bottom: 100px;
+}
+
+.my-work img {
+  min-width: 250px;
+  width: 100%;
+}
+
+.my-work h5 {
+  color: #67935d;
+}
+
+.work-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 10%;
+  padding-top: 36px;
+}
+
+.work-section-title {
+  margin: 0 0 20px 0;
+}
+
+.work-description {
+  margin-left: 200px;
+}
+
+/***** ABOUT ME *****/
+.about-me {
+  background: #ffcd62;
+  display: inline-block;
+}
+
+.about-me img {
+  padding: 60px 0 60px 150px;
+}
+
+.about-me-description {
+  margin-left: 360px;
+}
+
+/***** CONTACT *****/
+
+.contact-info {
+  color: #0e402d;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.social-media-icon {
+  margin: 30px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  color: black;
+  margin: 50px;
+  text-align: center;
+}
+
+/* font-family: myriad-pro, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+font-family: myriad-pro-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal; */
